@@ -69,12 +69,12 @@ body {
 }
 
 header, footer {
-    height: 15%;
+    height: 10%;
     padding: 0px;
 }
 
 main {
-    height: 70%;
+    height: 80%;
     align-items: center;
     padding: 0;
 }
@@ -85,6 +85,14 @@ header img {
 
 #responsive-pc {
     height: 100%;
+    display: flex;
+    padding: 0px;
+    flex-direction: column;
+    place-content: center;
+}
+
+form {
+    padding-bottom: 0px;
 }
 
 .ingreso textarea,
@@ -142,7 +150,7 @@ button#copiar {
     display: flex;
     border-radius: 25px;
     justify-content: center;
-    font-size: 15px;
+    font-size: 14px;
     letter-spacing: 2px;
     width: 100%;
 }
@@ -153,13 +161,12 @@ button#copiar {
 
 button#encriptar,
 button#desencriptar {
-    padding: 15px;
+    padding: 13px;
     cursor: pointer
 }
 
 button#copiar {
-    margin-top: 10px;
-    padding: 20px;
+    padding: 14px;
     cursor: pointer
 }
 
@@ -187,6 +194,10 @@ button#copiar {
     ;
     color: var(--white);
     margin-bottom: 0px;
+}
+
+div#tsalida, .bCopiar {
+    padding-top: 0px;
 }
 
 .sinmensaje {
@@ -217,14 +228,13 @@ div.tmensaje {
 footer p {
     text-align: center;
     font-size: 10px;
-    padding-top: 15px;
+    padding: 0px;
     color: var(--dark-grey);
 }
 
 footer .redes {
     text-align: center;
     padding: 0;
-    padding-top:10px;
 }
 
 footer i {
