@@ -69,18 +69,18 @@ body {
 }
 
 header, footer {
-    height: 10%;
+    height: 15%;
     padding: 0px;
 }
 
 main {
-    height: 80%;
+    height: 70%;
     align-items: center;
     padding: 0;
 }
 
 header img {
-    width: 25%;
+    width: 20%;
 }
 
 #responsive-pc {
@@ -194,18 +194,19 @@ button#copiar {
     border: 2px solid var(--grey-black);
     border-radius: 30px;
     padding: 0px;
-    height: 10rem;
+    height: 9rem;
 }
 
 .salida h2 {
-    font-size: 20px;
+    font-size: 15px;
     font-weight: bold;
     padding: 0;
 }
 
 .salida p {
     padding: 0;
-    padding-top: 20px;
+    padding-top: 22px;
+    font-size: 14px;
 }
 
 div.tmensaje {
@@ -223,6 +224,7 @@ footer p {
 footer .redes {
     text-align: center;
     padding: 0;
+    padding-top:10px;
 }
 
 footer i {
