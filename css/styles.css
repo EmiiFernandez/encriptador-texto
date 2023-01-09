@@ -74,9 +74,6 @@ section,
     padding: 0;
 }
 
-
-
-
 header img {
     width: 1.5rem;
     padding: 0px;
@@ -261,9 +258,6 @@ button:active {
 /*Media Queries*/
 
 @media (min-width: 768px) {
-    main {
-        height: 60%;
-    }
 
     .ingreso textarea,
     .salida textarea,
@@ -291,15 +285,24 @@ button:active {
         padding: 0;
     }
 
+    .ingreso textarea, .salida textarea {
+        height: 11rem;
+    }
+
+    footer i {
+        font-size: 2.5rem;
+    }
+
+    footer p {
+        padding-top: 10px;
+    }
+
 }
 
 @media(min-width: 992px) {
-    header, footer {
-        height: 15%;
-    }
-
-    main {
-        height: 70%;
+    header img {
+        width: 2rem;
+        margin-left: 1rem;
     }
 
     .ingreso textarea,
@@ -309,16 +312,19 @@ button:active {
         font-size: 17px;
     }
 
+    .ingreso, img {
+        padding: 0px;
+    }
+
     .advertencia p,
     footer p {
         font-size: 14px;
     }
 
-
     #responsive-pc {
         display: flex;
         justify-content: space-around;
-        align-items: flex-start;
+        flex-direction: row;
     }
 
     .ingreso textarea,
@@ -340,14 +346,17 @@ button:active {
 
     .ingreso textarea,
     .salida textarea {
-        width: 22rem;
-        height: 20rem;
+        width: 100%;
+        height: 18rem;
     }
 
     #imgTexto {
         display: flex;
-        width: 12rem;
         padding: 0;
+    }
+
+    #imgTexto img {
+        width: 13rem;
     }
 
     .tmensaje {
@@ -356,11 +365,11 @@ button:active {
 
     button#copiar {
         margin-top: 4rem;
-        padding: 25px;
+        padding: 15px;
     }
 
     .botones {
-        margin-top: 2rem;
+        margin-top: 0.5rem;
     }
 
     div.salida,
@@ -370,14 +379,29 @@ button:active {
     }
 
     footer i {
-        font-size: 24px;
-        padding: 14px;
+        font-size: 2.5rem;
+        padding: 0px;
+    }
+
+    footer .redes {
+        display: flex;
+        justify-content: space-evenly;
+        width: 30rem;
+        align-items: center;
+        padding-bottom: 20px;
+    }
+
+    footer {
+        align-self: center;
     }
 
 }
 
 @media (min-width: 1200px) {
-
+    header img {
+        width: 3rem;
+        margin-left: 2rem;
+    }
   
     .ingreso textarea,
     .salida textarea,
@@ -392,8 +416,8 @@ button:active {
     }
 
     footer i {
-        font-size: 26px;
-        padding: 16px;
+        font-size: 3rem;
+        padding: 0px;
     }
 
     #responsive-pc {
@@ -404,11 +428,11 @@ button:active {
     .ingreso textarea,
     .salida textarea {
         width: 30rem;
-        height: 15rem;
+        height: 20rem;
     }
 
     #imgTexto img {
-        width: 12rem;
+        width: 14rem;
         padding: 0px;
     }
 
@@ -426,6 +450,16 @@ button:active {
         margin-top: 90px;
         padding: 19px;
     }
+}
 
+@media (min-width: 1600px) {
+    header img {
+        width: 4rem;
+        margin-left: 8rem;
+    }
 
+    footer i {
+        font-size: 4rem;
+        padding: 0px;
+    }
 }
