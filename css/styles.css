@@ -68,7 +68,9 @@ body {
     height: 100%;;
 }
 
-header, main, footer {
+header, main, footer, div.salida,
+section,
+.sinmensaje, a  {
     padding: 0;
 }
 
@@ -92,10 +94,9 @@ header img {
 .ingreso textarea,
 .salida textarea {
     width: 100%;
-    height: 10rem;
+    height: 8rem;
     font-size: 15px;
     border: none;
-    min-width: 10%;
     padding-top: 30px;
 
 }
@@ -107,11 +108,6 @@ textarea#mensaje,
     border-radius: 20px;
 }
 
-div.salida,
-section,
-.sinmensaje, a {
-    padding: 0px;
-}
 
 .ingreso ::placeholder {
     color: var(--dark-grey)
@@ -154,13 +150,8 @@ button#copiar {
 }
 
 button#encriptar,
-button#desencriptar {
+button#desencriptar, button#copiar {
     padding: 13px;
-    cursor: pointer
-}
-
-button#copiar {
-    padding: 14px;
     cursor: pointer
 }
 
@@ -199,7 +190,7 @@ div#tsalida, .bCopiar {
     border: 2px solid var(--grey-black);
     border-radius: 30px;
     padding: 0px;
-    height: 9rem;
+    height: 8rem;
 }
 
 .salida h2 {
