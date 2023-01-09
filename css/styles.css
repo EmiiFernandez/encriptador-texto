@@ -80,7 +80,8 @@ main {
 }
 
 header img {
-    width: 20%;
+    width: 1.5rem;
+    padding: 0px;
 }
 
 #responsive-pc {
@@ -238,7 +239,7 @@ footer .redes {
 }
 
 footer i {
-    font-size: 25px;
+    font-size: 2rem;
     cursor: pointer;
     color: var(--grey-black)
 }
