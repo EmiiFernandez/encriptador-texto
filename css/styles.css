@@ -63,21 +63,17 @@ html {
 body {
     display: flex;
     flex-direction: column;
-    justify-content: space-around;
+    justify-content: space-evenly;
     width: 100vw;
     height: 100%;;
 }
 
-header, footer {
-    height: 10%;
-    padding: 0px;
-}
-
-main {
-    height: 80%;
-    align-items: center;
+header, main, footer {
     padding: 0;
 }
+
+
+
 
 header img {
     width: 1.5rem;
@@ -92,9 +88,6 @@ header img {
     place-content: center;
 }
 
-form {
-    padding-bottom: 0px;
-}
 
 .ingreso textarea,
 .salida textarea {
