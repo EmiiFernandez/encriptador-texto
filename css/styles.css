@@ -454,12 +454,6 @@ button:active {
 
 @media (min-width: 1600px) {
     header img {
-        width: 4rem;
         margin-left: 8rem;
-    }
-
-    footer i {
-        font-size: 4rem;
-        padding: 0px;
     }
 }
