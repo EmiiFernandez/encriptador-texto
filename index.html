@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Encriptador de texto</title>
+    <link rel="stylesheet" href="./css/styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+<body>
+    <header>
+        <img src="./assets/logo_alura.svg" alt="logo_alura">
+    </header>
+
+    <main>
+        <div id="responsive-pc">
+            <form id="formtexto" class="ingreso">
+                <textarea name="text" id="texto" cols="30" rows="10" placeholder="Ingrese el texto aqui"></textarea>
+
+
+                <div class="advertencia">
+                    <img src="./assets/icono_advertencia.svg" alt="advertencia">
+                    <p>Solo letras minúsculas y sin acentos</p>
+                </div>
+
+                <div class="botones">
+                    <button id="encriptar" class="btnefecto">
+                        Encriptar
+                    </button>
+
+                    <button id="desencriptar" class="btnefecto">
+                        Desencriptar
+                    </button>
+                </div>
+            </form>
+
+            <section>
+                <div class="salida">
+                    <div class="sinmensaje">
+                        <div class="tmensaje">
+                        <h2>Ningún mensaje fue encontrado</h2>
+                        <p>Ingresa el texto que desees encriptar o desencriptar</p>
+                        </div>
+                        <div id="imgTexto" class="imagenTexto">
+                            <img src="./assets/mensaje-no-encontrado.png" alt="Mensaje-no-encontrado">
+                        </div>
+                    </div>
+
+                    <div id="tsalida" class="textsalida ocultar">
+
+                    </div>
+
+                    <div class="bCopiar ocultar">
+                        <button id="copiar" class="btnefecto">
+                            Copiar
+                        </button>
+                    </div>
+                </div>
+            </section>
+        </div>
+
+    </main>
+
+    <footer>
+        <div class="redes">
+            <a href="https://github.com/"><i class="fa-brands fa-github"></i></a>
+            <a href="https://www.linkedin.com/in/emiliafernandez/"><i class="fa-brands fa-linkedin"></i></a>
+            
+        </div>
+        <p> Emilia Fernández - 2023</p>
+    </footer>
+
+
+
+
+
+
+
+
+    <script src="./scripts/util.js"></script>
+    <script src="./scripts/tasks.js"></script>
+    <script src="./scripts/script.js"></script>
+</body>
+
+</html>
