@@ -42,6 +42,11 @@ El resultado debe ser mostrado en la pantalla.
   <img align="center" width = 60px src="https://camo.githubusercontent.com/96327f7d9cb0254a96db740a34da59e8e0be3919b1041f4a44db7a17b8940f4b/68747470733a2f2f696d672e69636f6e73382e636f6d2f636f6c6f722f3334342f6a6176617363726970742d2d76312e706e67" />
 </a>
 
+### Mockup web:
+<a href="#">
+  <img align="center" width = 1000px src="https://github.com/EmiiFernandez/encriptador-texto/blob/main/assets/Multi%20Device%20Website%20Mockup%20-%20Encriptador.png?raw=true"
+</a>
+
 ### Link del proyecto:
-<a href="https://emiifernandez.github.io/encriptador-texto/">https://emiifernandez.github.io/encriptador-texto/
+<a href="https://emiifernandez.github.io/encriptador-texto/">https://emiifernandez.github.io/encriptador-texto/ />
 </a>
