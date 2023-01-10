@@ -44,7 +44,7 @@ El resultado debe ser mostrado en la pantalla.
 
 ### Mockup web:
 <a href="#">
-  <img align="center" width = 1000px src="https://github.com/EmiiFernandez/encriptador-texto/blob/main/assets/Multi%20Device%20Website%20Mockup%20-%20Encriptador.png?raw=true"
+  <img align="center" width = 1000px src=https://github.com/EmiiFernandez/encriptador-texto/blob/main/assets/mockup-web-encriptador.png?raw=true"
 </a>
 
 ### Link del proyecto:
