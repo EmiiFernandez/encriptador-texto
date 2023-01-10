@@ -48,5 +48,5 @@ El resultado debe ser mostrado en la pantalla.
 </a>
 
 ### Link del proyecto:
-<a href="https://emiifernandez.github.io/encriptador-texto/">https://emiifernandez.github.io/encriptador-texto/ />
+<a href="https://emiifernandez.github.io/encriptador-texto/">https://emiifernandez.github.io/encriptador-texto/
 </a>
