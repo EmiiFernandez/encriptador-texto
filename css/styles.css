@@ -299,7 +299,7 @@ button:active {
 
 }
 
-@media(min-width: 992px) {
+@media(min-width: 1199px) {
     header img {
         width: 2rem;
         margin-left: 1rem;
