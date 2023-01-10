@@ -15,9 +15,15 @@ function capturarTexto(texto) {
   return datos
 }
 
+/* ---------------Eliminar acentos--------------- */
+
+const eliminarAcentos = (str) => {
+  return str.normalize("NFD").replace(/[\u0300-\u036f]/g, "");
+} 
+
 /* ---------------Normalizar texto--------------- */
 function normalizarTexto(texto) {
-  return texto.toLowerCase().trim();
+  return eliminarAcentos(texto.toLowerCase().trim());
 }
 
 /* ---------------Encriptar Texto--------------- */
