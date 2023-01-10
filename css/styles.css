@@ -95,11 +95,14 @@ textarea:focus {
 .ingreso textarea,
 .salida textarea {
     width: 100%;
-    height: 10rem;
     font-size: 15px;
     border: none;
     padding-top: 30px;
 
+}
+
+textarea#texto, textarea#mSalida {
+    height: 15rem;
 }
 
 
@@ -286,6 +289,10 @@ button:active {
     footer i {
         font-size: 22px;
         padding: 12px;
+    }
+
+    textarea#texto, textarea#mSalida {
+        height: 20rem;
     }
 
     #imgTexto {
